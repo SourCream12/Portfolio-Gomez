@@ -1,0 +1,278 @@
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    color: #0A1D37;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.body-container {
+    position: absolute;
+    z-index: 2;
+    background-color: #FFEEDB;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #FFBD9B; 
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+    z-index: 3;
+    transition: top 0.3s;
+}
+
+.navbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-align: center;
+    margin: 1vw 2vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding-bottom: 12px;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid white;
+    cursor: pointer;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.name {
+    background-color: #FFD8CC;
+    padding: 0 6%;
+    padding-left: 4em;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    margin-bottom: 100px;
+}
+
+.name h3 {
+    text-align: left;
+    font-size: 24px;
+    padding-top: 32px; 
+}
+
+.name h1 {
+    text-align: left;
+    font-size: 100px;
+    padding-top: 32px; 
+}
+
+.name img {
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-right: 64px;
+    border: 2px solid #062c43;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.name #email {
+    float: left;
+    text-decoration: none;
+    border: 2px solid #0A1D37;
+    padding: 10px 20px;
+    background: 0;
+    border-radius: 5px;
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.name #email:hover {
+    background: #0A1D37;
+    color: #fff;
+    cursor: pointer;
+}
+
+.about {
+    padding: 0 6%;
+    margin-left: 20px;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    margin-bottom: 100px;
+}
+
+.about h6 {
+    text-align: right;
+    font-size: 24px;
+    padding-top: 32px; 
+}
+
+.about h1 {
+    text-align: right;
+    font-size: 60px;
+    padding-top: 32px; 
+}
+
+.about img {
+    width: 250px;
+    height: auto;
+    float: left;
+    margin-right: 64px;
+    border: 2px solid #062c43;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.services {
+    background-color: #FFD8CC;
+    text-align: left;
+    padding: 0 6%;
+    padding-left: 2em;
+    padding-top: 100px;
+    padding-bottom: 400px;
+    margin-bottom: 100px;
+    font-size: 35px;
+}
+
+.services img {
+    float: right;
+    width: 500px;
+    height: auto;
+    border: 2px solid #062c43;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.services li {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+#contact {
+    background-color: #FFD8CC;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3vw;
+    padding: auto 20vw;
+    margin-top: 0;
+    padding-bottom: 100px;
+}
+
+#contact h1 {
+    margin-bottom: 20px;
+}
+
+#contact-image {
+    width: 800px;
+    height: auto;
+    border: 2px solid #062c43;
+    border-radius: 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-logo {
+    margin: 50px 30px;
+}
+
+.contact-container h4 {
+    font-size: 15px;
+}
+
+.contact-logo img {
+    border: 0;
+    border-radius: 0;
+    width: 30px;
+}
+
+#portfolio {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 500px;
+}
+
+#portfolio h1 {
+    margin-bottom: 80px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #FFBD9B;
+    width: 250px;
+    height: 380px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1.5vw;
+    margin-left: 30px;
+}
+
+.card h2, p {
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+.card-image {
+    background-color: aquamarine;
+    height: 170px;
+    width: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.image-1 {
+    background: url('./photos/load-test.jpg');
+}
+
+.image-2 {
+    background: url('./photos/mobile-test.jpg');
+}
+
+.image-3 {
+    background: url('./photos/ui-test.png');
+}
+
+
+
+
+
+
+
+
+
